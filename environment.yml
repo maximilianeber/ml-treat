@@ -1,0 +1,15 @@
+name: ml-treat-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy=1.18.*
+  - pandas=0.25.*
+  - statsmodels=0.11.*
+  - scikit-learn=0.22.*
+  - seaborn=0.9.*
+  - tqdm=4.42.*
+  - flake8
+  - black
+  - ipykernel
